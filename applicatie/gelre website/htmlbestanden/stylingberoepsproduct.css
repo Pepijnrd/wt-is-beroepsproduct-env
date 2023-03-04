@@ -1,0 +1,219 @@
+
+body {
+    background-color: rgba(52, 54, 77, 0.637);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* hier onder de css voor de hoofdpagina en de info pagina*/
+
+.hoofdbalk {
+    background-color: rgb(106, 106, 165);
+    display: flex;
+    margin: -8px;
+    justify-content: row;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.homelogo {
+    margin-left: 10px;
+    color: black;
+}
+
+.kopjes {
+    display: flex;
+    gap: 50px;
+    font-size: larger;
+    align-self: center;
+}
+
+.vluchten,
+.account,
+.info,
+.medewerker {
+    color: black;
+}
+
+.vluchten:hover,
+.account:hover,
+.info:hover,
+.medewerker:hover {
+    color: rgb(255, 145, 0);
+}
+
+.teksthome {
+    background-color: rgb(205, 205, 223);
+    border-style: solid;
+    display: flex;
+    margin: 5% 15% 0 15%;
+    padding: 0 2% 2% 2%;
+    border-radius: 10px;
+}
+
+.kop {
+    text-align: center;
+}
+
+.backgroundbox {
+    background-image: url(/plaatjes/placeholder.jpg);
+    display: flex;
+    justify-content: center;
+    margin: 8px -8px 0 -8px;
+    padding-bottom: 10%;
+}
+
+
+/* hieronder staat de css voor de medewerkerpagina*/
+
+.medewerklogin {
+    border-style: solid;
+    word-spacing: 10px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 247);
+    display: flex;
+    justify-content: center;
+    margin: 0 30% 0 30%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+    word-spacing: -1px;
+}
+
+input:hover,
+select:hover {
+    background-color: rgb(170, 165, 165);
+    transition: 250ms;
+}
+
+
+/* hieronder staat de css voor de vluchtenpagina */
+
+.omvangvluchtbox {
+    margin: 10% 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vluchtnummerborder {
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(232, 232, 247)
+}
+
+.vluchtnummerfilter {
+    border: solid black;
+    border-bottom-style: none;
+}
+
+.filtervluchten {
+    border: solid black;
+    border-bottom-style: none;
+}
+
+.vluchttabel {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+.tabel {
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+/* hieronder staat de css van vluchtdetails */
+
+.vluchtdetailsbox {
+    border: solid black;
+    margin-left: 25%;
+    padding: 0 5%;
+    background-color: rgb(232, 232, 247);
+    border-radius: 10px;
+}
+
+.detailhead {
+    border: solid black;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
+}
+
+
+.detailsdetails {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+}
+
+.vluchtdetailspaginabox {
+    display: flex;
+    gap: 5%;
+}
+
+.bagagebox {
+    border: solid black;
+    padding: 0 5%;
+    background-color: rgb(232, 232, 247);
+    border-radius: 10px;
+}
+
+.bagagehead {
+    border: solid black;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
+}
+
+
+/* hieronder komt de css van de medewerkerinterface */
+
+.interfacemedebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+
+.vluchttoevoegen {
+    margin-top: 50px;
+    border: solid black;
+    background-color: rgb(232, 232, 247);
+    border-radius: 10px;
+}
+
+.pasagiertoevoegen {
+    margin-top: 50px;
+    border: solid black;
+    background-color: rgb(232, 232, 247);
+    border-radius: 10px;
+}
+
+.bagagetoevoegen {
+    margin-top: 50px;
+    border: solid black;
+    background-color: rgb(232, 232, 247);
+    border-radius: 10px;
+}

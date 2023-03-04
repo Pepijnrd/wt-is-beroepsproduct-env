@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="/applicatie/gelre website/cssbestanden/stylingberoepsproduct.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="hoofdbalk">
+        <h1><a class="homelogo" href="home.html">GELRE</a></h1>
+        <div class="kopjes">
+            <a class="vluchten" href="vluchten.html">Vluchten</a>
+            <a class="info" href="info.html">Info</a>
+            <a class="medewerker" href="medewerkerpagina.html">medewerkers</a>
+        </div>
+    </header>
+    <h1 class="kop">VLUCHTEN</h1>
+    <form class="omvangvluchtbox">
+        <fieldset class="vluchtnummerfilter">
+            <label for="vluchtnummer">Vluchtnummer</label>
+            <input type="text" name="vluchtnummer" id="vluchtnummer">
+            <input type="submit" value="Zoeken">
+        </fieldset>
+        <fieldset class="filtervluchten">
+            <label>Bestemming</label>
+            <input type="text" name="bestemming" id="bestemming">
+            <label>| Vertrekdatum</label>
+            <input type="date" name="vertrekdatum" id="vertrekdatum">
+            <label>| Terugdatum</label>
+            <input type="date" name="terugdatum" id="terugdatum">
+            <input type="submit" value="Filteren">
+        </fieldset>
+    </form>
+    <div class="vluchttabel">
+        <table class="tabel">
+            <tr>
+                <th>Vluchtnummer</th>
+                <th>Vertrek</th>
+                <th>Bestemming</th>
+                <th>Maatschappij</th>
+                <th>Naar vlucht</th>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>Parijs</td>
+                <td>Cairo</td>
+                <td>Transavia</td>
+                <td><a href="vluchtdetails.html">details</a></td>
+            </tr>
+            <tr>
+                <td>5678</td>
+                <td>Amsterdam</td>
+                <td>Stokholm</td>
+                <td>Ryanair</td>
+                <td><a href="vluchtdetails.html">details</a></td>
+            </tr>
+            <tr>
+                <td>9012</td>
+                <td>London</td>
+                <td>New York</td>
+                <td>londen airlines</td>
+                <td><a href="vluchtdetails.html">details</a></td>
+            </tr>
+            <tr>
+                <td>3456</td>
+                <td>Malaga</td>
+                <td>Kaapstad</td>
+                <td>Ryanair</td>
+                <td><a href="vluchtdetails.html">details</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

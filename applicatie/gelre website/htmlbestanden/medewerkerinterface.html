@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="/applicatie/gelre website/cssbestanden/stylingberoepsproduct.css">
+    <meta charset="utf-8">
+    <title>medewerker</title>
+</head>
+
+<body>
+    <header class="hoofdbalk">
+        <h1><a class="homelogo" href="home.html">GELRE</a></h1>
+        <div class="kopjes">
+            <a class="vluchten" href="vluchten.html">Vluchten</a>
+
+            <a class="info" href="info.html">Info</a>
+            <a class="medewerker" href="medewerkerpagina.html">Medewerkers</a>
+        </div>
+    </header>
+    <div class="interfacemedebox">
+        <div class="vluchttoevoegen">
+            <h2>Vlucht toevoegen</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label>Passagiers</label>
+                        <input type="number" min="0" max="600">
+                    </li>
+                    <li>
+                        <label>Vertrek</label>
+                        <input type="text" name="vertrekstad">
+                    <li>
+                        <label>Vertrekdatum</label>
+                        <input type="date">
+                    </li>
+                    <li>
+                        <label>Aankomst</label>
+                        <input type="text" name="aankomstad">
+                    <li>
+                        <label>Vertrekdatum</label>
+                        <input type="date">
+                    </li>
+                    <li>
+                        <label>Vliegtijden</label>
+                        <input type="time">
+                        <input type="time">
+                    </li>
+                    <li>
+                        <input type="submit" value="toevoegen">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="pasagiertoevoegen">
+            <h2>Passagier toevoegen</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label>Naam</label>
+                        <input type="text" name="Naam">
+                    </li>
+                    <li>
+                        <label>Achternaam</label>
+                        <input type="text" name="Achternaam">
+                    </li>
+                    <li>
+                        <label>E-mail</label>
+                        <input type="email" name="Email">
+                    </li>
+                    <li>
+                        <label>Geboortedatum</label>
+                        <input type="date" name="Geboortedatum">
+                    </li>
+                    <li>
+                        <input type="submit" value="toevoegen">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="bagagetoevoegen">
+            <h2>Bagage toevoegen voor Passagier</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label>Aantal tassen/koffers</label>
+                        <input type="number" min="0" max="3">
+                    </li>
+                    <li>
+                        <label>Totaal gewicht onder 20 Kg</label>
+                        <input type="checkbox" name="onder20" id="onder20">
+                    <li>
+                        <label>Totaal gewicht onder 50 Kg</label>
+                        <input type="checkbox" name="onder50" id="onder50">
+                    </li>
+                    <li><label>Totaal gewicht onder 100 Kg</label>
+                        <input type="checkbox" name="onder100" id="onder100">
+                    </li>
+                    <li>
+                        <label>KlantId</label>
+                        <input type="text" name="klantId" id="KlantId">
+                    </li>
+                    <li>
+                        <label>Voorwaarden accepteren</label>
+                        <input type="checkbox" name="aanvinken" id="aanvinken" required>
+                    </li>
+                    <li>
+                        <input type="submit" value="toevoegen">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>

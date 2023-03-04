@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="/applicatie/gelre website/cssbestanden/stylingberoepsproduct.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inloggen</title>
+</head>
+
+<body>
+    <header class="hoofdbalk">
+        <h1><a class="homelogo" href="home.html">GELRE</a></h1>
+        <div class="kopjes">
+            <a class="vluchten" href="vluchten.html">Vluchten</a>
+            <a class="info" href="info.html">Info</a>
+            <a class="medewerker" href="medewerkerpagina.html">Medewerkers</a>
+        </div>
+    </header>
+    <h1 class="kop">VLUCHT DETAILS</h1>
+    <div class="vluchtdetailspaginabox">
+        <div class="vluchtdetailsbox">
+            <div class="detailhead">
+                <p>Vlucht nummer: 1234</p>
+            </div>
+            <div class="detailsdetails">
+                <p>Vertrek: Parijs</p>
+                <p>Aankomst: cairo</p>
+                <p>Maatschappij: Transavia</p>
+                <p>vertrekdatum: 21/11/2022 18:00</p>
+                <p>Aankomstdatum: 21/11/2022 22:30</p>
+                <p>max passagiers 230</p>
+            </div>
+        </div>
+        <div>
+            <div class="bagagebox">
+                <div class="bagagehead">
+                    <p>Bagage inchecken</p>
+                </div>
+                <form class="bagagedetails">
+                    <ul>
+                        <li>
+                            <label>Aantal tassen/koffers</label>
+                            <input type="number" min="0" max="3">
+                        </li>
+                        <li>
+                            <label>Totaal gewicht onder 20 Kg</label>
+                            <input type="checkbox" name="onder20" id="onder20">
+                        <li>
+                            <label>Totaal gewicht onder 50 Kg</label>
+                            <input type="checkbox" name="onder50" id="onder50">
+                        </li>
+                        <li><label>Totaal gewicht onder 100 Kg</label>
+                            <input type="checkbox" name="onder100" id="onder100">
+                        </li>
+                        <li>
+                            <label>Voorwaarden accepteren</label>
+                            <input type="checkbox" name="aanvinken" id="aanvinken" required>
+                        </li>
+                        <li>
+                            <input type="submit" value="inchecken">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
